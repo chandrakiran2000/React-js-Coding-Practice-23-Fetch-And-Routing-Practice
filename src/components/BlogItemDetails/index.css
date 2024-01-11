@@ -1,0 +1,71 @@
+/* Write your CSS code here */
+
+.blog-item-details-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.blog-item-details-title {
+  color: #000000;
+  font-size: 40px;
+}
+.blog-item-details-avatar-content-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.blog-item-details-avatar-card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.blog-item-details-avatar-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-top: 3px;
+}
+.blog-item-details-avatar-author {
+  color: #000000;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.blog-item-details-content-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog-item-details-content-img {
+  height: 250px;
+  width: 100%;
+  border-radius: 7px;
+}
+.blog-item-details-content-author {
+  color: #8e8e8e;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-item-details-title {
+    color: #000000;
+    font-size: 17px;
+  }
+  .blog-item-details-avatar-author {
+    color: #000000;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .blog-item-details-content-author {
+    color: #8e8e8e;
+    font-size: 14px;
+  }
+}

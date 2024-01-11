@@ -1,0 +1,91 @@
+/* Write your CSS code here */
+
+.links {
+  text-decoration: none;
+}
+
+.blog-item-card {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #d3d3d3;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 7px;
+}
+.blog-item-img {
+  height: 200px;
+  width: 300px;
+  border-radius: 7px;
+}
+.blog-card {
+  margin-left: 15px;
+}
+.blog-topic {
+  color: #8e8e8e;
+  font-size: 17px;
+}
+.blog-title {
+  color: #000000;
+  font-size: 25px;
+}
+.blog-avatar-card {
+  display: flex;
+  align-items: center;
+}
+.blog-avatar-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.blog-avatar-author {
+  color: #8e8e8e;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .blog-item-card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #d3d3d3;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 7px;
+  }
+  .blog-item-img {
+    height: 200px;
+    width: 100%;
+    border-radius: 7px;
+  }
+  .blog-card {
+    margin-left: -1px;
+  }
+  .blog-topic {
+    color: #8e8e8e;
+    font-size: 15px;
+  }
+  .blog-title {
+    color: #000000;
+    font-size: 20px;
+  }
+  .blog-avatar-card {
+    display: flex;
+    align-items: center;
+  }
+  .blog-avatar-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+  }
+  .blog-avatar-author {
+    color: #8e8e8e;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}
